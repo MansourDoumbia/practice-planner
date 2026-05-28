@@ -548,7 +548,7 @@ const LoginPage = ({ onLogin, users }) => {
     <div className="login-page">
       <div className="login-box">
         <div className="login-logo">
-          <h1>⚡ Practice Planner</h1>
+          <h1>⚡ Kharon</h1>
           <p>Rowing team management</p>
         </div>
         <p className="quick-logins-label">Quick login (demo)</p>
@@ -612,7 +612,7 @@ const Sidebar = ({ user, page, setPage, onLogout, open, setOpen }) => {
   return (
     <nav className={`sidebar ${open ? "open" : ""}`}>
       <div className="sidebar-logo">
-        <h1>⚡ Practice Planner</h1>
+        <h1>⚡ Kharon</h1>
         <p>Crew Team Management</p>
       </div>
       <div className="sidebar-user">
